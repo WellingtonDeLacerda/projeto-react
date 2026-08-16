@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 10px;
+  border-radius:10px;
+  color:blue;
+  margin-bottom: 1rem;
+}
+.header ul {
+  display: flex;
+  gap:10px;
+}
+
+.header h1 {
+  text-shadow:1px 1px 0px #000;
+  font-size: 1.3rem;
+}
+.header a {
+  color:blue;
+  font-weight: bold;
+  border-bottom:1px solid black;
+}

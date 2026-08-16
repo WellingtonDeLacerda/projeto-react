@@ -1,0 +1,31 @@
+.section-project {
+  display: flex;
+  flex-flow:column;
+  gap:1rem;
+  align-items: center;
+  margin: 1rem 0;
+}
+.project-list {
+  display: flex;
+  flex-flow: column nowrap;
+  gap:1rem;
+}
+.project-list li{
+  display: flex;
+  flex-flow: column nowrap;
+  gap:1rem;
+  align-items: center;
+}
+.project-list a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.project-list img {
+  width: 80%;
+  border-radius:1rem;
+  box-shadow: 0px 0px 8px #0000005c;
+}
