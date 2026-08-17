@@ -3,24 +3,27 @@ import Content from "./components/Content/Content";
 import Projeto from "./components/Projetos/Projeto";
 import "./App.css";
 import { useState } from "react";
+import google from "./assets/google.png";
+import github from "./assets/github.jpg";
+import youtube from "./assets/youtube.jpg";
 function App() {
   const [projetos, setProjetos] = useState([
     {
       href: "https://google.com",
       text: "link do google",
-      src: "./src/assets/google.png",
+      src: google,
       alt: "projeto do google",
     },
     {
       href: "https://github.com",
       text: "link do github",
-      src: "./src/assets/github.jpg",
+      src: github,
       alt: "projeto do github",
     },
     {
       href: "https://youtube.com",
       text: "link do youtube",
-      src: "./src/assets/youtube.jpg",
+      src: youtube,
       alt: "projeto do youtube",
     },
   ]);
